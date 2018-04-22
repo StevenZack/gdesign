@@ -1,20 +1,20 @@
 # 实现
 - [本地服务器客户端开发现状](#本地服务器客户端开发现状)
-- [关于跨平台网络库](#AboutCrossPlatformNetLib)
-- [为什么选择Go语言](#WhyGo)
-- [Go语言的现状与前景](#TheFutureOfGo)
-- [桌面GUI程序发展现状(Electron,Qt,Gtk,Sciter)](#DesktopGUI)
-- [Go语言GUI框架](#GUI4GO)
-- [Android开发现状(Hybrid,Web,Native)](#AndroidDev)
-- [摄像头直播功能实现(WebSocket,Canvas)](#CameraLive)
+- [关于跨平台网络库](#关于跨平台网络库)
+- [为什么选择Go语言](#为什么选择go语言)
+- [Go语言的现状与前景](#go语言的现状与前景)
+- [桌面GUI程序发展现状](#桌面gui程序发展现状)
+- [Go语言GUI框架](#Gg语言gui框架)
+- [Android开发现状](#android开发现状)
+- [摄像头直播功能实现](#摄像头直播功能实现)
 - [Robotgo自动化库](#robotgo自动化库)
 
 ---
 ## 本地服务器客户端开发现状
 
-## 关于跨平台网络库 (AboutCrossPlatformNetLib)
+## 关于跨平台网络库
 
-## 为什么选择Go语言 (WhyGo)
+## 为什么选择Go语言
 
 Go语言介绍：[1]
 
@@ -44,14 +44,16 @@ __并发编程__[2]
 搭配Go语言的channel，可以让新手也能轻松实现CSP并发模型。将并发单元间的数据耦合拆解开来，各司其职。这对所有纠结于内存共享、锁粒度的开发人员来说都是一个可以期盼的大解脱！如果真的要说有什么不足，那就应该是要有一个更大的计划，将通信从进程内拓展到进程之外，实现真正意义上的分布式！
 
 
-## Go语言的现状与前景 (TheFutureOfGo)
+## Go语言的现状与前景
 
-## 桌面GUI程序发展现状(Electron,Qt,Gtk,Sciter) (DesktopGUI)
+## 桌面GUI程序发展现状
 
-## Go语言GUI框架 (GUI4Go)
+## Go语言GUI框架
 
-## Android开发现状(Hybrid,Web,Native) (AndroidDev)
+不像Java，Go语言没有官方的桌面GUI框架。我只能从第三方仓库里面去寻找。
 
-## 摄像头直播功能实现 (CameraLive)
+## Android开发现状
+
+## 摄像头直播功能实现
 
 ## Robotgo自动化库
